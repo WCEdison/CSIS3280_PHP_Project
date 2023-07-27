@@ -28,7 +28,7 @@ Member:
 Edison CHAN 
 300370372 
 
--------------------------News Feed-------------------------------
+-------------------------------------------------------------------------------------------
 4. To do & milestone 
 
 Ask lecturer for project scope and weight (Edi 1 AUG (Tue))
