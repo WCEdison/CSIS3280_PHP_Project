@@ -2,10 +2,13 @@
 Course: CSIS3280-001 BACKEND WEB DEVELOPMENT
 Logistics:
 Links:
+
 Latest meeting note:
 https://docs.google.com/document/d/1CPxe6M_CGIk4EhlHPLl1iZhRxJfs_5yUqt5mI81Nvvc/edit?usp=sharing 
+
 Google Drive:
 https://drive.google.com/drive/folders/1idI_rNAA2-JcdJI2lJoRg3FRLYv7vzqO?usp=sharing 
+
 Github:
 https://github.com/WCEdison/CSIS3280_PHP_Project.git 
 	
