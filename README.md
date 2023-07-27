@@ -1,21 +1,30 @@
 # CSIS3280_PHP_Project
 Course: CSIS3280-001 BACKEND WEB DEVELOPMENT
+
 Logistics:
+
 Links:
 
 Latest meeting note:
+
 https://docs.google.com/document/d/1CPxe6M_CGIk4EhlHPLl1iZhRxJfs_5yUqt5mI81Nvvc/edit?usp=sharing 
 
 Google Drive:
+
 https://drive.google.com/drive/folders/1idI_rNAA2-JcdJI2lJoRg3FRLYv7vzqO?usp=sharing 
 
 Github:
+
 https://github.com/WCEdison/CSIS3280_PHP_Project.git 
 	
 
 Personal info:
-Leader: Manj, Dilraj 
-Member: Edison CHAN 300370372 
+Leader: 
+Manj, Dilraj 
+
+Member: 
+Edison CHAN 
+300370372 
 
 Items to discuss:
 1. Reconfirm key design feature
@@ -26,6 +35,7 @@ Items to discuss:
 
 4. Milestones and deadline
 
+------------------------------------------------------------------------------------
 1. Reconfirm key design feature
 Format: Store front 
 Major tech decision
