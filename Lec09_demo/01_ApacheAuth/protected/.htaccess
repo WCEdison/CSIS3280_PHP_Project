@@ -1,0 +1,6 @@
+# you must specify the complete path to the .htpasswd file
+# use forward slash and valid folder name, i.e., no whitespace, to avoid any issue
+AuthUserFile C:\Users\sarifb\Downloads\week09\demo\secret_place\.htpasswd
+AuthName "Authorized personnel only."
+AuthType Basic
+Require valid-user
