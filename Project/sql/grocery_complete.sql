@@ -9,7 +9,7 @@ USE grocery;
 
 -- Create the grocery_products table to store information about grocery products.
 CREATE TABLE grocery_products (
-    product_id INT PRIMARY KEY, -- Unique identifier for each product (primary key).
+    product_id INT AUTO_INCREMENT PRIMARY KEY, -- Unique identifier for each product (primary key).
     product_name CHAR(100) NOT NULL, -- Name of the product (max 100 characters), must be specified.
     price FLOAT(4, 2) NOT NULL, -- Price of the product (4 digits with 2 decimal places), must be specified.
     quantity INT NOT NULL, -- Quantity of the product, must be specified.
@@ -25,27 +25,27 @@ CREATE TABLE users (
 ) ENGINE=InnoDB;
 
 -- Insert grocery products into the grocery_products table.
-INSERT INTO grocery_products (product_id, product_name, price, quantity, category) VALUES
-    (1, 'Apples', 1.99, 10, 'Fruits'),
-    (2, 'Bananas', 0.99, 15, 'Fruits'),
-    (3, 'Oranges', 2.49, 8, 'Fruits'),
-    (4, 'Milk', 2.29, 5, 'Dairy'),
-    (5, 'Eggs', 3.99, 12, 'Dairy'),
-    (6, 'Bread', 1.79, 20, 'Bakery'),
-    (7, 'Potatoes', 0.89, 25, 'Vegetables'),
-    (8, 'Onions', 0.69, 18, 'Vegetables'),
-    (9, 'Carrots', 1.29, 15, 'Vegetables'),
-    (10, 'Chicken Breast', 5.99, 6, 'Meat'),
-    (11, 'Ground Beef', 4.49, 8, 'Meat'),
-    (12, 'Rice', 2.19, 10, 'Grains'),
-    (13, 'Pasta', 1.49, 12, 'Grains'),
-    (14, 'Tomatoes', 1.79, 8, 'Vegetables'),
-    (15, 'Cucumbers', 0.99, 10, 'Vegetables'),
-    (16, 'Cheese', 3.49, 5, 'Dairy'),
-    (17, 'Butter', 2.79, 5, 'Dairy'),
-    (18, 'Yogurt', 1.99, 10, 'Dairy'),
-    (19, 'Cereal', 3.29, 8, 'Breakfast'),
-    (20, 'Juice', 2.49, 12, 'Beverages');
+INSERT INTO grocery_products (product_name, price, quantity, category) VALUES
+    ('Apples', 1.99, 10, 'Fruits'),
+    ('Bananas', 0.99, 15, 'Fruits'),
+    ('Oranges', 2.49, 8, 'Fruits'),
+    ('Milk', 2.29, 5, 'Dairy'),
+    ('Eggs', 3.99, 12, 'Dairy'),
+    ('Bread', 1.79, 20, 'Bakery'),
+    ('Potatoes', 0.89, 25, 'Vegetables'),
+    ('Onions', 0.69, 18, 'Vegetables'),
+    ('Carrots', 1.29, 15, 'Vegetables'),
+    ('Chicken Breast', 5.99, 6, 'Meat'),
+    ('Ground Beef', 4.49, 8, 'Meat'),
+    ('Rice', 2.19, 10, 'Grains'),
+    ('Pasta', 1.49, 12, 'Grains'),
+    ('Tomatoes', 1.79, 8, 'Vegetables'),
+    ('Cucumbers', 0.99, 10, 'Vegetables'),
+    ('Cheese', 3.49, 5, 'Dairy'),
+    ('Butter', 2.79, 5, 'Dairy'),
+    ('Yogurt', 1.99, 10, 'Dairy'),
+    ('Cereal', 3.29, 8, 'Breakfast'),
+    ('Juice', 2.49, 12, 'Beverages');
 
 -- Insert mangement user
 INSERT INTO users (full_name, username, password) VALUES

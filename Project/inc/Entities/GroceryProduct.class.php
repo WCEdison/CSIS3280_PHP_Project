@@ -4,7 +4,7 @@
 +--------------+------------+------+-----+---------+----------------+
 | Field        | Type       | Null | Key | Default | Extra          |
 +--------------+------------+------+-----+---------+----------------+
-| product_id   | int(11)    | NO   | PRI | NULL    |                |
+| product_id   | int(11)    | NO   | PRI | NULL    |    Auto        |
 | product_name | char(100)  | NO   |     | NULL    |                |
 | price        | float(4,2) | NO   |     | NULL    |                |
 | quantity     | int(11)    | NO   |     | NULL    |                |
@@ -48,10 +48,6 @@ class GroceryProduct{
     }
 
     //setters
-    function setProductID(int $id)
-    {
-        $this->product_id = $id;
-    }
 
     public function setProductName(string $name)
     {
