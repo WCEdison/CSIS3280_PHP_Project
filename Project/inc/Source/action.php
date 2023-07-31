@@ -165,7 +165,7 @@ if(isset($_POST["get_seleted_Category"]) || isset($_POST["selectBrand"]) || isse
 	}else {
         
 		$keyword = $_POST["keyword"];
-        header('Location:store.php');
+        header('Location:inc/database/store.php');
 		$sql = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_keywords LIKE '%$keyword%'";
        
 	}
