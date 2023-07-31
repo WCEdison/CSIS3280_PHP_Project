@@ -201,30 +201,7 @@ include "inc\Database\db.php";
 
 						<!-- ACCOUNT -->
 						<div class="col-md-3 clearfix">
-							<div class="header-ctn">
-								
-
-								<!-- Cart -->
-								<div class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-										<i class="fa fa-shopping-cart"></i>
-										<span>Your Cart</span>
-										<div class="badge qty">0</div>
-									</a>
-									<div class="cart-dropdown"  >
-										<div class="cart-list" id="cart_product">
-										
-											
-										</div>
-										
-										<div class="cart-btns">
-												<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i>  edit cart</a>
-											
-										</div>
-									</div>
-										
-									</div>
-								<!-- /Cart -->
+							<div class="header-ctn">						
 
 								<!-- Menu Toogle -->
 								<div class="menu-toggle">
