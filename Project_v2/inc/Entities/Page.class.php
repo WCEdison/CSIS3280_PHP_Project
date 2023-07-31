@@ -1,4 +1,6 @@
 <?php
+include_once("inc/Entities/User.class.php");
+
 class Page
 {
     static function header()
@@ -42,6 +44,30 @@ class Page
                         <ul class="header-links pull-right">
                             <li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
                             <li>
+                                <?php
+
+                                if (isset($_SESSION["id"])) {
+
+                                    echo '
+   <div class="dropdownn">
+      <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> HI ' .$_SESSION["username"] . '</a>
+      <div class="dropdownn-content">
+        <a href="" data-toggle="modal" data-target="#profile"><i class="fa fa-user-circle" aria-hidden="true" ></i>My Profile</a>
+        <a href="logout.php"  ><i class="fa fa-sign-in" aria-hidden="true"></i>Log out</a>
+        
+      </div>
+    </div>';
+                                } else {
+                                    echo '
+    <div class="dropdownn">
+      <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> My Account</a>
+      <div class="dropdownn-content">
+        <a href="" data-toggle="modal" data-target="#Modal_login"><i class="fa fa-sign-in" aria-hidden="true" ></i>Login</a>
+      </div>
+    </div>';
+                                }
+                                ?>
+
                                 <!-- Replace the PHP code with your account-related HTML -->
                                 <!-- For example, if the user is logged in, show their name and account options, otherwise show login option -->
                                 <!-- Your account-related HTML here -->
@@ -177,10 +203,10 @@ class Page
                                         <p><span>Category:</span> <?php echo $category; ?></p>
                                     <?php } ?>
                                     <?php if ($minPrice !== null) { ?>
-                                        <p><span>Min Price:</span> <?php echo "$".$minPrice; ?></p>
+                                        <p><span>Min Price:</span> <?php echo "$" . $minPrice; ?></p>
                                     <?php } ?>
                                     <?php if ($maxPrice !== null) { ?>
-                                        <p><span>Max Price:</span> <?php echo "$".$maxPrice; ?></p>
+                                        <p><span>Max Price:</span> <?php echo "$" . $maxPrice; ?></p>
                                     <?php } ?>
                                 </div>
                             </div>
