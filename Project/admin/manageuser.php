@@ -1,7 +1,7 @@
 
     <?php
 session_start();
-include("../db.php");
+include("inc/database/db.php");
 if(isset($_GET['action']) && $_GET['action']!="" && $_GET['action']=='delete')
 {
 $user_id=$_GET['user_id'];
@@ -59,5 +59,5 @@ include "topheader.php";
         </div>
       </div>
       <?php
-include "footer.php";
+include "inc/page/footer.php";
 ?>

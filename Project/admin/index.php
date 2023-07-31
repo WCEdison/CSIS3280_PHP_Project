@@ -1,7 +1,7 @@
 
     <?php
 session_start();
-include("../db.php");
+include("inc/database/db.php");
 
 include "sidenav.php";
 include "topheader.php";
@@ -149,5 +149,5 @@ include "topheader.php";
         </div>
       </div>
       <?php
-include "footer.php";
+include "inc/page/footer.php";
 ?>

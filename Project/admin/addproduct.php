@@ -1,6 +1,6 @@
   <?php
 session_start();
-include("../db.php");
+include("inc/database/db.php");
 
 
 if(isset($_POST['btn_save']))
@@ -129,5 +129,5 @@ include "topheader.php";
         </div>
       </div>
       <?php
-include "footer.php";
+include "inc/page/footer.php";
 ?>

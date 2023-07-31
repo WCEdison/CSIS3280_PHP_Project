@@ -1,6 +1,6 @@
  <?php
 session_start();
-include("../db.php");
+include("inc/database/db.php");
 error_reporting(0);
 if(isset($_GET['action']) && $_GET['action']!="" && $_GET['action']=='delete')
 {
@@ -116,5 +116,5 @@ include "topheader.php";
         </div>
       </div>
       <?php
-include "footer.php";
+include "inc/page/footer.php";
 ?>

@@ -1,7 +1,7 @@
 
     <?php
 session_start();
-include("../db.php");
+include("inc/database/db.php");
 $user_id=$_REQUEST['user_id'];
 
 $result=mysqli_query($con,"select user_id,first_name,last_name, email, password from user_info where user_id='$user_id'")or die ("query 1 incorrect.......");
@@ -76,5 +76,5 @@ include "topheader.php";
         </div>
       </div>
       <?php
-include "footer.php";
+include "inc/page/footer.php";
 ?>
