@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "inc/source/db.php";
+
 ?>
 
 <!DOCTYPE html>
@@ -125,7 +125,7 @@ include "inc/source/db.php";
 					<ul class="header-links pull-right">
 						<li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
 						<li><?php
-
+                             include "db.php";
                             if(isset($_SESSION["uid"])){
                                 $sql = "SELECT first_name FROM user_info WHERE user_id='$_SESSION[uid]'";
                                 $query = mysqli_query($con,$sql);
@@ -269,7 +269,7 @@ include "inc/source/db.php";
                             </div>
                             <div class="modal-body">
                             <?php
-                                include "inc/source/login_form.php";
+                                include "login_form.php";
     
                             ?>
           
@@ -290,7 +290,7 @@ include "inc/source/db.php";
                             </div>
                             <div class="modal-body">
                             <?php
-                                include "inc/source/register_form.php";
+                                include "register_form.php";
     
                             ?>
           

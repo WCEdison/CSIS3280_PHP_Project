@@ -1,11 +1,11 @@
 <?php
 
 
-include "inc/page/header.php";
+include "header.php";
 
-include "inc/page/body.php";
-include "inc/source/newslettter.php";
-include "inc/page/footer.php";
+include "body.php";
+include "newslettter.php";
+include "footer.php";
 ?>
 		
 		
