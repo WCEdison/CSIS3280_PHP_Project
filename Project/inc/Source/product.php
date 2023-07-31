@@ -1,5 +1,5 @@
 <?php
-include "inc/page/header.php";
+include "inc\Page\header.php";
 ?>
 		<!-- /BREADCRUMB -->
 		<script type="text/javascript">
