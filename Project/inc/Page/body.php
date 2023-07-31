@@ -139,7 +139,7 @@
 									<div class="products-slick" data-nav="#slick-nav-1" >
 									
 									<?php
-                    include 'db.php';
+                    include 'inc/database/db.php';
 								
                     
 					$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 70 AND 75";
@@ -299,7 +299,7 @@
 									<div class="products-slick" data-nav="#slick-nav-2">
 										<!-- product -->
 										<?php
-                    include 'db.php';
+                    include 'inc/database/db.php';
 								
                     
 					$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 59 AND 65";
