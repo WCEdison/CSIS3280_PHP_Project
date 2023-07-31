@@ -242,13 +242,9 @@ include_once "db.php";
 	</header>
 	<!-- /HEADER -->
 	<nav id='navigation'>
-		<!-- container -->
 		<div class="container" id="get_category_home">
 
 		</div>
-		<!-- responsive-nav -->
-
-		<!-- /container -->
 	</nav>
 
 
