@@ -30,7 +30,7 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 					
 					</script>";
 		} else {
-			header('Location: index.php'); // default page
+			echo "<script> location.href='inc/Entities/page.class.php'; </script>"; // default page
 		}
 		exit;
 	} else {
