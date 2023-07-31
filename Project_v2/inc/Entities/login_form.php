@@ -42,11 +42,6 @@
 						<h4 id="e_msg"></h4>
 					</div>
 				</div>
-
-
-
-
-
 			</div>
 
 		</form>
