@@ -9,8 +9,6 @@ include_once('inc/Utility/GroceryProductsDAO.class.php');
 GroceryProductsDAO::initialize('GroceryProduct');
 //get
 $products = GroceryProductsDAO::getAllGroceryProducts();
-
-
 Page::header();
 Page::mainPage($products);
 Page::footer();

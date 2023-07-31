@@ -50,10 +50,10 @@ class Page
 
                                     echo '
    <div class="dropdownn">
-      <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> HI ' .$_SESSION["username"] . '</a>
+      <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> HI ' . $_SESSION["username"] . '</a>
       <div class="dropdownn-content">
         <a href="" data-toggle="modal" data-target="#profile"><i class="fa fa-user-circle" aria-hidden="true" ></i>My Profile</a>
-        <a href="logout.php"  ><i class="fa fa-sign-in" aria-hidden="true"></i>Log out</a>
+        <a href="inc/Entities/logout.php"  ><i class="fa fa-sign-in" aria-hidden="true"></i>Log out</a>
         
       </div>
     </div>';
@@ -62,7 +62,7 @@ class Page
     <div class="dropdownn">
       <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> My Account</a>
       <div class="dropdownn-content">
-        <a href="" data-toggle="modal" data-target="#Modal_login"><i class="fa fa-sign-in" aria-hidden="true" ></i>Login</a>
+        <a href="inc/Entities/login_form.php" data-toggle="modal" data-target="#Modal_login"><i class="fa fa-sign-in" aria-hidden="true" ></i>Login</a>
       </div>
     </div>';
                                 }
@@ -124,7 +124,32 @@ class Page
                     </div>
                 </div>
                 <!-- /MAIN HEADER -->
+                 <!-- NAVIGATION -->
+
+            <div class="modal fade" id="Modal_login" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                        </div>
+                        <div class="modal-body">
+                            <?php
+                            include_once "inc/Entities/login_form.php";
+
+                            ?>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
             </header>
+
+            
             <!-- /HEADER -->
         <?php
     }
@@ -252,6 +277,8 @@ class Page
 
             </div>
             <!-- END Item Page Content -->
+
+           
     <?php
     }
 }
