@@ -1,7 +1,7 @@
 
     <?php
 session_start();
-include("../db.php");
+include("../inc/source/db.php");
 
 include "sidenav.php";
 include "topheader.php";
