@@ -1,5 +1,5 @@
 <?php
-#this is Login form page , if user is already logged in then we will not allow user to access this page by executing isset($_SESSION["uid"])
+#this is Login form page , if user is already logged in then we will not allow user to access this page by executing isset($_SESSION["id"])
 ?>
 
 <div class="wait overlay">
