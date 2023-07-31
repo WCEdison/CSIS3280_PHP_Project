@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once "inc\Database\db.php";
+include_once "db.php";
 ?>
 
 <!DOCTYPE html>
@@ -266,7 +266,7 @@ include_once "inc\Database\db.php";
 				</div>
 				<div class="modal-body">
 					<?php
-					include_once "inc\Login\login_form.php";
+					include_once "login_form.php";
 
 					?>
 
@@ -287,7 +287,7 @@ include_once "inc\Database\db.php";
 				</div>
 				<div class="modal-body">
 					<?php
-					include_once "inc/login/register_form.php";
+					include_once "register_form.php";
 
 					?>
 
