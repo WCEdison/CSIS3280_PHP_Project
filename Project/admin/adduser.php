@@ -1,8 +1,8 @@
  <?php
 session_start();
-include("inc/database/db.php");
-include "sidenav.php";
-include "topheader.php";
+include("db.php");
+include_once "sidenav.php";
+include_once "topheader.php";
 if(isset($_POST['btn_save']))
 {
 $first_name=$_POST['first_name'];
@@ -95,5 +95,5 @@ mysqli_close($con);
         </div>
       </div>
       <?php
-include "inc/page/footer.php";
+include_once "footer.php";
 ?>

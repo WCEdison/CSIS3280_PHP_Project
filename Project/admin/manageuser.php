@@ -1,7 +1,7 @@
 
     <?php
 session_start();
-include("inc/database/db.php");
+include("db.php");
 if(isset($_GET['action']) && $_GET['action']!="" && $_GET['action']=='delete')
 {
 $user_id=$_GET['user_id'];
@@ -10,8 +10,8 @@ $user_id=$_GET['user_id'];
 mysqli_query($con,"delete from user_info where user_id='$user_id'")or die("query is incorrect...");
 }
 
-include "sidenav.php";
-include "topheader.php";
+include_once "sidenav.php";
+include_once "topheader.php";
 ?>
       <!-- End Navbar -->
       <div class="content">
@@ -59,5 +59,5 @@ include "topheader.php";
         </div>
       </div>
       <?php
-include "inc/page/footer.php";
+include_once "footer.php";
 ?>

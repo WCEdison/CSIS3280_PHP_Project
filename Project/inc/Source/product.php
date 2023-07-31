@@ -1,6 +1,6 @@
 <?php
-include "inc/Database/db.php";
-include "inc/Page/header.php";
+include_once "db.php";
+include_once "header.php";
 ?>
 		<!-- /BREADCRUMB -->
 		<script type="text/javascript">
@@ -57,7 +57,7 @@ include "inc/Page/header.php";
 					<!-- Product main img -->
 					
 					<?php 
-								include 'inc/database/db.php';
+								include_once 'db.php';
 								$product_id = $_GET['p'];
 								
 								$sql = " SELECT * FROM products ";
@@ -450,7 +450,7 @@ include "inc/Page/header.php";
 								} 
 								?>	
 								<?php
-                    include 'inc/database/db.php';
+                    include_once 'db.php';
 								$product_id = $_GET['p'];
                     
 					$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN $product_id AND $product_id+3";
@@ -527,7 +527,7 @@ include "inc/Page/header.php";
 
 		<!-- FOOTER -->
 <?php
-include "inc/source/newslettter.php";
-include "inc/page/footer.php";
+include_once "newslettter.php";
+include_once "footer.php";
 
 ?>

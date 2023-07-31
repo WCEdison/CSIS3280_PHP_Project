@@ -14,14 +14,14 @@
 			<div class="row">
 				<!-- shop -->
 				<div class="col-md-4 col-xs-6">
-					<a href="inc/source/product.php?p=78">
+					<a href="product.php?p=78">
 						<div class="shop">
 							<div class="shop-img">
 								<img src="./img/shop01.png" alt="">
 							</div>
 							<div class="shop-body">
 								<h3>Vegetables</h3>
-								<a href="inc/source/product.php?p=78" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<a href="product.php?p=78" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div>
 					</a>
@@ -30,14 +30,14 @@
 
 				<!-- shop -->
 				<div class="col-md-4 col-xs-6">
-					<a href="inc/source/product.php?p=72">
+					<a href="product.php?p=72">
 						<div class="shop">
 							<div class="shop-img">
 								<img src="./img/shop03.png" alt="">
 							</div>
 							<div class="shop-body">
 								<h3>Fruits</h3>
-								<a href="inc/source/product.php?p=72" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<a href="product.php?p=72" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div>
 					</a>
@@ -46,14 +46,14 @@
 
 				<!-- shop -->
 				<div class="col-md-4 col-xs-6">
-					<a href="inc/source/product.php?p=79">
+					<a href="product.php?p=79">
 						<div class="shop">
 							<div class="shop-img">
 								<img src="./img/shop02.png" alt="">
 							</div>
 							<div class="shop-body">
 								<h3>Carbohydrate</h3>
-								<a href="inc/source/product.php?p=79" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<a href="product.php?p=79" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div>
 					</a>
@@ -99,7 +99,7 @@
 								<div class="products-slick" data-nav="#slick-nav-2">
 									<!-- product -->
 									<?php
-									include 'inc/database/db.php';
+									include_once 'db.php';
 
 
 									$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 59 AND 65";
@@ -121,7 +121,7 @@
                         
                                 
 								<div class='product'>
-									<a href='inc/source/product.php?p=$pro_id'><div class='product-img'>
+									<a href='product.php?p=$pro_id'><div class='product-img'>
 										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
 										<div class='product-label'>
 											<span class='sale'>-30%</span>
@@ -130,7 +130,7 @@
 									</div></a>
 									<div class='product-body'>
 										<p class='product-category'>$cat_name</p>
-										<h3 class='product-name header-cart-item-name'><a href='inc/source/product.php?p=$pro_id'>$pro_title</a></h3>
+										<h3 class='product-name header-cart-item-name'><a href='product.php?p=$pro_id'>$pro_title</a></h3>
 										<h4 class='product-price header-cart-item-info'>$pro_price<del class='product-old-price'>$990.00</del></h4>
 										<div class='product-rating'>
 											<i class='fa fa-star'></i>

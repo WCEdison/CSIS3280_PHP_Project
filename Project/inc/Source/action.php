@@ -1,7 +1,7 @@
 <?php
 session_start();
 $ip_add = getenv("REMOTE_ADDR");
-include "inc/database/db.php";
+include_once "db.php";
 if(isset($_POST["category"])){
 	$category_query = "SELECT * FROM categories";
     
@@ -165,7 +165,7 @@ if(isset($_POST["get_seleted_Category"]) || isset($_POST["selectBrand"]) || isse
 	}else {
         
 		$keyword = $_POST["keyword"];
-        header('Location:inc/database/store.php');
+        header('Location:store.php');
 		$sql = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_keywords LIKE '%$keyword%'";
        
 	}

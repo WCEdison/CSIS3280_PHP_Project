@@ -1,5 +1,5 @@
 <?php
-include 'header.php';
+include_once 'header.php';
 ?>
      <script id="jsbin-javascript">
 (function (global) {
@@ -148,6 +148,6 @@ include 'header.php';
 		</div>
 </div>
 <?php
-include "newslettter.php";
-include "footer.php";
+include_once "newslettter.php";
+include_once "footer.php";
 ?>

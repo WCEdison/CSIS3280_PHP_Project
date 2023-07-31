@@ -1,5 +1,5 @@
 <?php
-include "inc/page/header.php";
+include_once "header.php";
 ?>
 
 
@@ -10,6 +10,6 @@ include "inc/page/header.php";
 </div>
 </section>	
 <?php
-include "inc/source/newslettter.php";
-include "inc/page/footer.php";
+include_once "newslettter.php";
+include_once "footer.php";
 ?>

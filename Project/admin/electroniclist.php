@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("inc/database/db.php");
+include("db.php");
 error_reporting(0);
 if(isset($_GET['action']) && $_GET['action']!="" && $_GET['action']=='delete')
 {
@@ -34,8 +34,8 @@ else
 {
 $page1=($page*10)-10;	
 } 
-include "sidenav.php";
-include "topheader.php";
+include_once "sidenav.php";
+include_once "topheader.php";
 ?>
       <!-- End Navbar -->
       <div class="content">
@@ -125,5 +125,5 @@ include "topheader.php";
         </div>
       </div>
       <?php
-include "inc/page/footer.php";
+include_once "footer.php";
 ?>

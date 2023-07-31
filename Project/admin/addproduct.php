@@ -1,6 +1,6 @@
   <?php
 session_start();
-include("inc/database/db.php");
+include("db.php");
 
 
 if(isset($_POST['btn_save']))
@@ -33,8 +33,8 @@ mysqli_query($con,"insert into products (product_cat, product_brand,product_titl
 
 mysqli_close($con);
 }
-include "sidenav.php";
-include "topheader.php";
+include_once "sidenav.php";
+include_once "topheader.php";
 ?>
       <!-- End Navbar -->
       <div class="content">
@@ -129,5 +129,5 @@ include "topheader.php";
         </div>
       </div>
       <?php
-include "inc/page/footer.php";
+include_once "footer.php";
 ?>

@@ -1,7 +1,7 @@
 
     <?php
 session_start();
-include("inc/database/db.php");
+include("db.php");
 $user_id=$_REQUEST['user_id'];
 
 $result=mysqli_query($con,"select user_id,first_name,last_name, email, password from user_info where user_id='$user_id'")or die ("query 1 incorrect.......");
@@ -21,8 +21,8 @@ mysqli_query($con,"update user_info set first_name='$first_name', last_name='$la
 header("location: manageuser.php");
 mysqli_close($con);
 }
-include "sidenav.php";
-include "topheader.php";
+include_once "sidenav.php";
+include_once "topheader.php";
 ?>
       <!-- End Navbar -->
       <div class="content">
@@ -76,5 +76,5 @@ include "topheader.php";
         </div>
       </div>
       <?php
-include "inc/page/footer.php";
+include_once "footer.php";
 ?>

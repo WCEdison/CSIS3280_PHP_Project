@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "inc/database/db.php";
+include_once "db.php";
 if (isset($_POST["email"])) {
     $email = $_POST['email'];
     $emailValidation = "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9]+(\.[a-z]{2,4})$/";
