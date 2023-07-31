@@ -20,6 +20,9 @@ Github:
 https://github.com/WCEdison/CSIS3280_PHP_Project.git 
 	
 
+Reference:
+https://code-projects.org/online-shopping-system-in-php-with-source-code/
+
 Personal info:
 Leader: 
 Manj, Dilraj 
