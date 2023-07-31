@@ -1,5 +1,6 @@
 <?php
-include "inc\Page\header.php";
+include "inc/Database/db.php";
+include "inc/Page/header.php";
 ?>
 		<!-- /BREADCRUMB -->
 		<script type="text/javascript">
