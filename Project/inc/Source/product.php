@@ -1,5 +1,5 @@
 <?php
-include "header.php";
+include "inc/source/header.php";
 ?>
 		<!-- /BREADCRUMB -->
 		<script type="text/javascript">
@@ -526,7 +526,7 @@ include "header.php";
 
 		<!-- FOOTER -->
 <?php
-include "newslettter.php";
-include "footer.php";
+include "inc/source/newslettter.php";
+include "inc/source/footer.php";
 
 ?>
