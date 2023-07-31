@@ -1,0 +1,23 @@
+.search-info {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.search-info h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 24px;
+}
+
+.search-info p {
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 16px;
+}
+
+.search-info span {
+    font-weight: bold;
+    color: #777;
+}

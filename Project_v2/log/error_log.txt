@@ -1,0 +1,82 @@
+[31-Jul-2023 13:25:23 Europe/Berlin] PHP Warning:  Undefined array key "min_price" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 16
+[31-Jul-2023 13:25:23 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:25:23 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:25:23 Europe/Berlin] PHP Warning:  Undefined array key "max_price" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 17
+[31-Jul-2023 13:25:23 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:25:23 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:25:37 Europe/Berlin] PHP Warning:  Undefined array key "min_price" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 16
+[31-Jul-2023 13:25:37 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:25:37 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:25:37 Europe/Berlin] PHP Warning:  Undefined array key "max_price" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 17
+[31-Jul-2023 13:25:37 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:25:37 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:27:49 Europe/Berlin] PHP Warning:  Undefined array key "min_price" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 16
+[31-Jul-2023 13:27:49 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:27:49 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:27:49 Europe/Berlin] PHP Warning:  Undefined array key "max_price" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 17
+[31-Jul-2023 13:27:49 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:27:49 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:27:55 Europe/Berlin] PHP Warning:  Undefined array key "search_term" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 14
+[31-Jul-2023 13:27:55 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:27:55 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:27:55 Europe/Berlin] PHP Warning:  Undefined array key "category" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 15
+[31-Jul-2023 13:27:55 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:27:55 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:29:35 Europe/Berlin] PHP Warning:  Undefined array key "search_term" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 14
+[31-Jul-2023 13:29:35 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:29:35 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:29:35 Europe/Berlin] PHP Warning:  Undefined array key "category" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 15
+[31-Jul-2023 13:29:35 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:29:35 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:29:41 Europe/Berlin] PHP Warning:  Undefined array key "min_price" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 16
+[31-Jul-2023 13:29:41 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:29:41 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:29:41 Europe/Berlin] PHP Warning:  Undefined array key "max_price" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 17
+[31-Jul-2023 13:29:41 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:29:41 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:29:51 Europe/Berlin] PHP Warning:  Undefined array key "search_term" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 14
+[31-Jul-2023 13:29:51 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:29:51 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:29:51 Europe/Berlin] PHP Warning:  Undefined array key "category" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 15
+[31-Jul-2023 13:29:51 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:29:51 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:34:52 Europe/Berlin] PHP Warning:  Undefined array key "search_term" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 14
+[31-Jul-2023 13:34:52 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:34:52 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:34:52 Europe/Berlin] PHP Warning:  Undefined array key "category" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 15
+[31-Jul-2023 13:34:52 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:34:52 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:35:03 Europe/Berlin] PHP Warning:  Undefined array key "search_term" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 14
+[31-Jul-2023 13:35:03 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:35:03 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:35:03 Europe/Berlin] PHP Warning:  Undefined array key "category" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 15
+[31-Jul-2023 13:35:03 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:35:03 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP Warning:  Undefined variable $minPrice in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 24
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP Warning:  Undefined variable $maxPrice in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 27
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP Warning:  Undefined variable $minPrice in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 32
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP Warning:  Undefined variable $maxPrice in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 32
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP Warning:  Undefined variable $minPrice in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 39
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP Warning:  Undefined variable $maxPrice in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php on line 39
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 13:56:32 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 14:01:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + float in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\inc\Entities\Page.class.php:180
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php(41): Page::mainPage(Array, NULL, NULL, 1.0, 3.0)
+#1 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\inc\Entities\Page.class.php on line 180
+[31-Jul-2023 14:03:33 Europe/Berlin] PHP Warning:  Undefined variable $1 in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\inc\Entities\Page.class.php on line 180
+[31-Jul-2023 14:03:33 Europe/Berlin] PHP Stack trace:
+[31-Jul-2023 14:03:33 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:0
+[31-Jul-2023 14:03:33 Europe/Berlin] PHP   2. Page::mainPage($products = [0 => class GroceryProduct { private $product_id = 1; private $product_name = 'Apples'; private $price = 1.99; private $quantity = 10; private $category = 'Fruits' }], $searchTerm = 'A', $category = 'Fruits', $minPrice = 1, $maxPrice = 2) C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\ItemSearchResults.php:41
+[31-Jul-2023 14:08:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "{" in C:\Users\dilra\OneDrive\Documents\CSIS3280\Project\inc\Entities\Page.class.php on line 180
