@@ -40,41 +40,34 @@
 
 
 	<div class="login-marg">
+    <form method="post" action="login.php" class="login100-form">
+        <div class="billing-details jumbotron">
+            <div class="section-title">
+                <h2 class="login100-form-title p-b-49">Login Here</h2>
+            </div>
 
-		<form onsubmit="return false" id="login" class="login100-form ">
-			<div class="billing-details jumbotron">
-				<div class="section-title">
-					<h2 class="login100-form-title p-b-49">Login Here</h2>
-				</div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input class="input input-borders" type="email" name="email" placeholder="Email" required>
+            </div>
 
+            <div class="form-group">
+                <label for="email">Password</label>
+                <input class="input input-borders" type="password" name="password" placeholder="Password" required>
+            </div>
 
-				<div class="form-group">
-					<label for="email">Email</label>
-					<input class="input input-borders" type="email" name="email" placeholder="Email" id="password" required>
-				</div>
+            <div class="text-pad">
+                <a href="#">Forgot password?</a>
+            </div>
 
-				<div class="form-group">
-					<label for="email">Password</label>
-					<input class="input input-borders" type="password" name="password" placeholder="password" id="password" required>
-				</div>
+            <input class="primary-btn btn-block" type="submit" value="Login">
 
-				<div class="text-pad">
-					<a href="#">
-						forget password ?
-					</a>
-
-				</div>
-
-				<input class="primary-btn btn-block" type="submit" Value="Login">
-
-				<div class="panel-footer">
-					<div class="alert alert-danger">
-						<h4 id="e_msg"></h4>
-					</div>
-				</div>
-			</div>
-
-		</form>
-
-	</div>
+            <div class="panel-footer">
+                <div class="alert alert-danger">
+                    <h4 id="e_msg"><?php echo isset($error_message) ? $error_message : ''; ?></h4>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
 </div>

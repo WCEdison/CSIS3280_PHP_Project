@@ -18,12 +18,12 @@ CREATE TABLE grocery_products (
 
 -- Create the users table to store information about users.
 CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY, -- Unique identifier for each user (auto-incremented).
-    full_name VARCHAR(50), -- Full name of the user (max 50 characters).
-    username VARCHAR(20), -- Username of the user (max 20 characters).
-    password VARCHAR(250) -- Password of the user (max 250 characters).
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(50),
+    username VARCHAR(20),
+    email VARCHAR(100), -- New field for user email (max 100 characters).
+    password VARCHAR(250)
 ) ENGINE=InnoDB;
-
 -- Insert grocery products into the grocery_products table.
 INSERT INTO grocery_products (product_name, price, quantity, category) VALUES
     ('Apples', 1.99, 10, 'Fruits'),
@@ -48,5 +48,5 @@ INSERT INTO grocery_products (product_name, price, quantity, category) VALUES
     ('Juice', 2.49, 12, 'Beverages');
 
 -- Insert mangement user
-INSERT INTO users (full_name, username, password) VALUES
-    ('Management User', 'manager', 'password123');
+INSERT INTO users (full_name, username, email, password) VALUES 
+('Management User', 'manager', 'management@example.com', 'password123');
