@@ -32,7 +32,7 @@ class DashBoard
                         </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="MainPage.php">
+                        <a class="nav-link" href="index.php">
                             <i class="material-icons">list</i>
                             <p>Back to Main Store</p>
                         </a>

@@ -84,7 +84,7 @@ class Page
                             <div class="col-md-3">
                                 <div class="header-logo">
                                     <!-- ... (logo code) ... -->
-                                    <a href="MainPage.php" class="logo">
+                                    <a href="index.php" class="logo">
                                         <font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
                                             Online Grocery
                                         </font>
