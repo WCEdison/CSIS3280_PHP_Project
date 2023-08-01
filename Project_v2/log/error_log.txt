@@ -354,3 +354,111 @@ Stack trace:
 #3 {main}
   thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 73
 >>>>>>> Stashed changes
+[01-Aug-2023 07:13:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:13:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:13:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:13:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:13:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:13:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:13:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:13:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:13:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:13:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:13:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:13:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:13:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:14:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:14:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:14:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:15:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
+[01-Aug-2023 07:16:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:48
+Stack trace:
+#0 E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(18): PDOAgent->query('SELECT * FROM g...')
+#1 E:\Documents\GitHub\CSIS3280_PHP_Project\project_v2\MainPage.php(11): GroceryProductsDAO::getAllGroceryProducts()
+#2 {main}
+  thrown in E:\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 48
