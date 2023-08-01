@@ -7,7 +7,7 @@ class DashBoard
         <div class="sidebar" data-color="purple" data-background-color="black" data-image="./assets/img/sidebar-2.jpg">
             <div class="logo">
                 <a href="" class="simple-text logo-normal">
-                    PuneethReddy
+                    Management
                 </a>
             </div>
             <div class="sidebar-wrapper ps-container ps-theme-default" data-ps-id="3a8db1f4-24d8-4dbf-85c9-4f5215c1b29a">
@@ -18,12 +18,7 @@ class DashBoard
                             <p>Dashboard</p>
                         </a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="adduser.php">
-                            <i class="material-icons">person</i>
-                            <p>Add User</p>
-                        </a>
-                    </li>
+                    
                     <li class="nav-item ">
                         <a class="nav-link" href="Productlist.php">
                             <i class="material-icons">list</i>
@@ -36,13 +31,14 @@ class DashBoard
                             <p>Add Product</p>
                         </a>
                     </li>
-                    <!-- Add other navigation items here if needed -->
-                    <!-- <li class="nav-item active-pro ">
-                        <a class="nav-link" href="./upgrade.html">
-                            <i class="material-icons">unarchive</i>
-                            <p>Upgrade to PRO</p>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="MainPage.php">
+                            <i class="material-icons">list</i>
+                            <p>Back to Main Store</p>
                         </a>
-                    </li> -->
+                    </li>
+
+                    
                 </ul>
             </div>
         </div>
@@ -95,9 +91,9 @@ class DashBoard
                                         Some Actions
                                     </p>
                                 </a>
-                                <!-- Add your dropdown menu content here if needed -->
+                                
                             </li>
-                            <!-- Add other navbar items here if needed -->
+                            
                         </ul>
                     </div>
                 </div>
@@ -114,7 +110,7 @@ class DashBoard
                     <ul>
                         <li>
                             <a href="">
-                                PuneethReddy
+                                
                             </a>
                         </li>
                     </ul>
@@ -123,10 +119,9 @@ class DashBoard
                     &copy;
                     <script>
                         document.write(new Date().getFullYear())
-                    </script>, made with <i class="material-icons">favorite</i> by
-                    <a href="" target="_blank">Puneethreddy</a> for a better web.
+                    </script>
                 </div>
-                <!-- your footer here -->
+                <!-- footer here -->
             </div>
         </footer>
         <!--   Core JS Files   -->
@@ -147,7 +142,7 @@ class DashBoard
         <script src="./js/material-dashboard.js?v=2.1.0"></script>
         <!-- Material Dashboard DEMO methods, don't include it in your project! -->
         <script src="./js/demo/demo.js"></script>
-        <!-- Your custom JavaScript code goes here -->
+        
         <script>
             $(document).ready(function() {
 
@@ -296,12 +291,12 @@ class DashBoard
                         }, 300);
                     }
 
-                    // we simulate the window Resize so the charts will get updated in realtime.
+                    
                     var simulateWindowResize = setInterval(function() {
                         window.dispatchEvent(new Event('resize'));
                     }, 180);
 
-                    // we stop the simulation of Window Resize after the animations are completed
+                    
                     setTimeout(function() {
                         clearInterval(simulateWindowResize);
                     }, 1000);
@@ -338,11 +333,11 @@ class DashBoard
     private static function generateProductTable($products)
     {
     ?>
-        <!-- Additional styles to prevent content overlap -->
+        
         <style>
             .content {
                 margin-left: 120px;
-                /* Adjust this value to create space between content and navigation bar */
+                
             }
         </style>
 
@@ -410,12 +405,12 @@ class DashBoard
             "Breakfast"
         );
         ?>
-        <!-- Additional styles to prevent content overlap -->
+        
         <style>
             .content {
                 margin-top: 100px;
                 margin-left: 250px;
-                /* Adjust this value to create space between content and navigation bar */
+                
             }
         </style>
         <!-- Content -->
@@ -461,7 +456,7 @@ class DashBoard
                 </div>
             </div>
         </div>
-        <!-- End Content -->
+        <!-- Content -->
         <?php
     }
 
@@ -477,12 +472,12 @@ class DashBoard
             "Breakfast"
         );
 ?>
-        <!-- Additional styles to prevent content overlap -->
+       
         <style>
             .content {
                 margin-top: 100px;
                 margin-left: 250px;
-                /* Adjust this value to create space between content and navigation bar */
+                
             }
         </style>
         <!-- Content -->
