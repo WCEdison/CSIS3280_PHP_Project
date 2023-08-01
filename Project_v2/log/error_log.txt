@@ -174,6 +174,7 @@ Stack trace:
 [31-Jul-2023 21:02:58 Europe/Berlin] PHP Warning:  Undefined variable $category in C:\Users\ecwc0\GitHub\google_plugin\CSIS3280_PHP_Project\Project_v2\ItemSearchResults.php on line 41
 [31-Jul-2023 21:02:58 Europe/Berlin] PHP Warning:  Undefined variable $minPrice in C:\Users\ecwc0\GitHub\google_plugin\CSIS3280_PHP_Project\Project_v2\ItemSearchResults.php on line 41
 [31-Jul-2023 21:02:58 Europe/Berlin] PHP Warning:  Undefined variable $maxPrice in C:\Users\ecwc0\GitHub\google_plugin\CSIS3280_PHP_Project\Project_v2\ItemSearchResults.php on line 41
+<<<<<<< Updated upstream
 [31-Jul-2023 23:23:41 Europe/Berlin] PHP Warning:  include_once(login_form.php): Failed to open stream: No such file or directory in C:\Users\ecwc0\GitHub\google_plugin\CSIS3280_PHP_Project\Project_v2\header.php on line 264
 [31-Jul-2023 23:23:41 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'login_form.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\Users\ecwc0\GitHub\google_plugin\CSIS3280_PHP_Project\Project_v2\header.php on line 264
 [31-Jul-2023 23:23:43 Europe/Berlin] PHP Warning:  include_once(login_form.php): Failed to open stream: No such file or directory in C:\Users\ecwc0\GitHub\google_plugin\CSIS3280_PHP_Project\Project_v2\header.php on line 264
@@ -200,3 +201,156 @@ Stack trace:
 [31-Jul-2023 23:25:45 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'login_form.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\Users\ecwc0\GitHub\google_plugin\CSIS3280_PHP_Project\Project_v2\header.php on line 264
 [31-Jul-2023 23:25:46 Europe/Berlin] PHP Warning:  include_once(login_form.php): Failed to open stream: No such file or directory in C:\Users\ecwc0\GitHub\google_plugin\CSIS3280_PHP_Project\Project_v2\header.php on line 264
 [31-Jul-2023 23:25:46 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'login_form.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\Users\ecwc0\GitHub\google_plugin\CSIS3280_PHP_Project\Project_v2\header.php on line 264
+=======
+[01-Aug-2023 00:25:32 Europe/Berlin] PHP Warning:  Array to string conversion in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php on line 12
+[01-Aug-2023 00:25:32 Europe/Berlin] PHP Stack trace:
+[01-Aug-2023 00:25:32 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php:0
+[01-Aug-2023 00:25:33 Europe/Berlin] PHP Warning:  Array to string conversion in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php on line 12
+[01-Aug-2023 00:25:33 Europe/Berlin] PHP Stack trace:
+[01-Aug-2023 00:25:33 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php:0
+[01-Aug-2023 00:42:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method GroceryProduct::getImage() in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php:333
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(306): DashBoard::generateProductTable(Array)
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(16): DashBoard::productListView(Array)
+#2 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php on line 333
+[01-Aug-2023 00:45:02 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php:353
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(353): mysqli_query(NULL, 'SELECT product_...')
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(310): DashBoard::pagination()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(16): DashBoard::productListView(Array)
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php on line 353
+[01-Aug-2023 00:45:17 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php:353
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(353): mysqli_query(NULL, 'SELECT product_...')
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(310): DashBoard::pagination()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(16): DashBoard::productListView(Array)
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php on line 353
+[01-Aug-2023 00:46:14 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php:359
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(359): mysqli_query(NULL, 'SELECT product_...')
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(310): DashBoard::pagination()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(16): DashBoard::productListView(Array)
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php on line 359
+[01-Aug-2023 00:46:22 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php:359
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(359): mysqli_query(NULL, 'SELECT product_...')
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(310): DashBoard::pagination()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(16): DashBoard::productListView(Array)
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php on line 359
+[01-Aug-2023 00:46:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php:359
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(359): mysqli_query(NULL, 'SELECT product_...')
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(310): DashBoard::pagination()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(16): DashBoard::productListView(Array)
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php on line 359
+[01-Aug-2023 00:47:15 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php:376
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(376): mysqli_query(NULL, 'SELECT product_...')
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(310): DashBoard::pagination()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(16): DashBoard::productListView(Array)
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php on line 376
+[01-Aug-2023 00:47:19 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php:376
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(376): mysqli_query(NULL, 'SELECT product_...')
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(310): DashBoard::pagination()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(16): DashBoard::productListView(Array)
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php on line 376
+[01-Aug-2023 00:47:27 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php:376
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(376): mysqli_query(NULL, 'SELECT product_...')
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(310): DashBoard::pagination()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(16): DashBoard::productListView(Array)
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php on line 376
+[01-Aug-2023 00:47:47 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php:376
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(376): mysqli_query(NULL, 'SELECT product_...')
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(310): DashBoard::pagination()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(16): DashBoard::productListView(Array)
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php on line 376
+[01-Aug-2023 00:47:57 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php:376
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(376): mysqli_query(NULL, 'SELECT product_...')
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(310): DashBoard::pagination()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(16): DashBoard::productListView(Array)
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php on line 376
+[01-Aug-2023 00:48:07 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php:376
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(376): mysqli_query(NULL, 'SELECT product_...')
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(310): DashBoard::pagination()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(16): DashBoard::productListView(Array)
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php on line 376
+[01-Aug-2023 00:49:06 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php:374
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(374): mysqli_query(NULL, 'SELECT product_...')
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(308): DashBoard::pagination()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(16): DashBoard::productListView(Array)
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php on line 374
+[01-Aug-2023 00:49:21 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php:374
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(374): mysqli_query(NULL, 'SELECT product_...')
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php(308): DashBoard::pagination()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(16): DashBoard::productListView(Array)
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Entities\DashBoard.class.php on line 374
+[01-Aug-2023 02:09:49 Europe/Berlin] PHP Warning:  Undefined array key "product_id" in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\EditProduct.php on line 10
+[01-Aug-2023 02:09:49 Europe/Berlin] PHP Stack trace:
+[01-Aug-2023 02:09:49 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\EditProduct.php:0
+[01-Aug-2023 02:09:51 Europe/Berlin] PHP Warning:  Undefined array key "product_id" in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\EditProduct.php on line 10
+[01-Aug-2023 02:09:51 Europe/Berlin] PHP Stack trace:
+[01-Aug-2023 02:09:51 Europe/Berlin] PHP   1. {main}() C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\EditProduct.php:0
+[01-Aug-2023 02:55:24 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(46): PDOAgent->execute()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(61): GroceryProductsDAO::createGroceryProduct(Object(GroceryProduct))
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 73
+[01-Aug-2023 02:56:09 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(46): PDOAgent->execute()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(67): GroceryProductsDAO::createGroceryProduct(Object(GroceryProduct))
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 73
+[01-Aug-2023 02:57:10 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(46): PDOAgent->execute()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(67): GroceryProductsDAO::createGroceryProduct(Object(GroceryProduct))
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 73
+[01-Aug-2023 02:57:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(46): PDOAgent->execute()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(67): GroceryProductsDAO::createGroceryProduct(Object(GroceryProduct))
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 73
+[01-Aug-2023 02:58:24 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(46): PDOAgent->execute()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(67): GroceryProductsDAO::createGroceryProduct(Object(GroceryProduct))
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 73
+[01-Aug-2023 03:05:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php:73
+Stack trace:
+#0 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php(73): PDOStatement->execute()
+#1 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\GroceryProductsDAO.class.php(46): PDOAgent->execute()
+#2 C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\ProductList.php(67): GroceryProductsDAO::createGroceryProduct(Object(GroceryProduct))
+#3 {main}
+  thrown in C:\Users\dilra\OneDrive\Documents\GitHub\CSIS3280_PHP_Project\Project_v2\inc\Utility\PDOAgent.class.php on line 73
+>>>>>>> Stashed changes
